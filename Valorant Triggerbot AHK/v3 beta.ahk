@@ -22,14 +22,14 @@ key_burstclick  :=  "F4"    ; self explanatory
 key_off		    := 	"F5"	; self explanatory	
 key_exit	    := 	"F6"    ; self explanatory	
 key_gui_hide	:=	"F7"	; hides gui (graphical user interface)		
-key_hold	    :=	"LALT" 	; key that you hold to scan (example "T") 	
+key_hold	    :=	"Shift" 	; key that you hold to scan (example "T") 	
 
 ;SETTINGS
 pixel_box	    := 3		    ; Keep between min 3 and max 8		
 pixel_sens	    := 20	        ; higher/lower = more/less color sensitive 		
 pixel_color	    := 0xA145A3     ; yellow="0xFEFE40", purple="0xA145A3" 
-lowerreacttb    := 160          ; lowest delay tb ; for best use 150, 200, for more human 160, 300, and rage 10,11
-upperreacttb    := 300          ; highest delay tb
+lowerreacttb    := 150          ; lowest delay tb ; for best use 150, 200, for more human 160, 300, and rage 10,11
+upperreacttb    := 200          ; highest delay tb
 lowerspam       := 10           ; lowest delay slow   
 upperspam       := 20           ; highest delay fast
 burstcount      := 3            ; x times
